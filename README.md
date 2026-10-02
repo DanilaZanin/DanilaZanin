@@ -10,6 +10,7 @@ Tools I wrote for problems I kept running into.
 |---|---|
 | [helm-unstick](https://github.com/DanilaZanin/helm-unstick) | Recovers a Helm release stuck with "another operation (install/upgrade/rollback) is in progress". Checks that the operation is really dead before it rolls back, and refuses when it cannot tell. Tested end to end on Helm 3 and Helm 4. |
 | [ci-why](https://github.com/DanilaZanin/ci-why) | Explains which rule added or dropped a GitLab CI job, clause by clause, with the variable values it used. Its answers are compared with a real GitLab on every release. |
+| [kubectl-whydied](https://github.com/DanilaZanin/kubectl-whydied) | kubectl plugin that explains why a container or pod died or restarted: the last termination of each container, the mechanism behind it, and the evidence with a confidence label. Checked end to end on kind with 24 failure scenarios. |
 | [devops-starters](https://github.com/DanilaZanin/devops-starters) | Ten copy-paste starters (Ansible, Terraform, Argo CD, Vault, RabbitMQ, Redis, Kafka and others). Each one ships a test that reproduces the production trap it avoids. |
 | [vault-db-access](https://github.com/DanilaZanin/vault-db-access) | Self-service portal for temporary PostgreSQL and ClickHouse credentials on top of HashiCorp Vault's database secrets engine. |
 
