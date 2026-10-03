@@ -78,6 +78,16 @@ Read-only map of the KV paths a Vault or OpenBao token can list, with its capabi
 </td>
 <td width="50%" valign="top">
 
+### [am-blocks](https://github.com/DanilaZanin/am-blocks)
+Sits between Alertmanager and Slack: one message per alert group, updated in place, with Silence buttons. A silence covers the labels common to the group's alerts and is created only after the Slack signature and a user allowlist are checked.
+
+`Go` `Alertmanager` `Slack` `Helm`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
 ### [devops-starters](https://github.com/DanilaZanin/devops-starters)
 Ten copy-paste starters (Ansible, Terraform, Argo CD, Vault, RabbitMQ, Redis, Kafka and others). Each one ships a test that reproduces the production trap it avoids.
 
