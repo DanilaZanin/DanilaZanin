@@ -86,7 +86,15 @@ Sits between Alertmanager and Slack: one message per alert group, updated in pla
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
+
+### [plan-code-judge](https://github.com/DanilaZanin/plan-code-judge)
+Claude Code plugin for the workflow behind these tools: the main session plans, a cheaper model writes the code, and an independent stronger model judges it by running it. Includes a plan critic and a local log of verdicts.
+
+`Claude Code` `Shell` `Python`
+
+</td>
+<td width="50%" valign="top">
 
 ### [devops-starters](https://github.com/DanilaZanin/devops-starters)
 Ten copy-paste starters (Ansible, Terraform, Argo CD, Vault, RabbitMQ, Redis, Kafka and others). Each one ships a test that reproduces the production trap it avoids.
