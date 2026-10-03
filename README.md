@@ -50,7 +50,15 @@ Self-service portal for temporary PostgreSQL and ClickHouse credentials on top o
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
+
+### [runner-disk-report](https://github.com/DanilaZanin/runner-disk-report)
+Read-only report of what fills Docker's disk on a GitLab Runner host: cache volumes by project, build containers, images without double-counted layers, build cache. Checked on every release against a real GitLab and a real runner.
+
+`Go` `Docker` `GitLab Runner`
+
+</td>
+<td width="50%" valign="top">
 
 ### [devops-starters](https://github.com/DanilaZanin/devops-starters)
 Ten copy-paste starters (Ansible, Terraform, Argo CD, Vault, RabbitMQ, Redis, Kafka and others). Each one ships a test that reproduces the production trap it avoids.
