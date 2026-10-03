@@ -68,7 +68,15 @@ Read-only report of what fills Docker's disk on a GitLab Runner host: cache volu
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
+
+### [vault-map](https://github.com/DanilaZanin/vault-map)
+Read-only map of the KV paths a Vault or OpenBao token can list, with its capabilities on each path. It never reads secret payloads; every request is checked against an allowlist and verified against the server's audit log in tests.
+
+`Go` `Vault` `OpenBao`
+
+</td>
+<td width="50%" valign="top">
 
 ### [devops-starters](https://github.com/DanilaZanin/devops-starters)
 Ten copy-paste starters (Ansible, Terraform, Argo CD, Vault, RabbitMQ, Redis, Kafka and others). Each one ships a test that reproduces the production trap it avoids.
