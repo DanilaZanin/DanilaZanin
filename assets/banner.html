@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Profile banner</title>
+<style>
+  :root {
+    --bg: #0d1017;
+    --panel: #141925;
+    --line: #232a38;
+    --text: #e8edf5;
+    --muted: #8b95a7;
+    --accent: #ff6b5e;
+    --ok: #7ee0a4;
+    --sans: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --mono: "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); }
+  .slide {
+    width: 1600px; height: 420px;
+    background: var(--bg);
+    border-left: 14px solid var(--accent);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 84px 0 76px;
+    font-family: var(--sans); color: var(--text);
+  }
+  .label { font: 700 26px/1 var(--mono); letter-spacing: 4px; color: var(--accent); }
+  h1 { font-size: 104px; line-height: 1; letter-spacing: -3px; margin: 26px 0 28px; }
+  .sub { font-size: 31px; color: var(--muted); }
+  .sub b { color: var(--text); font-weight: 600; }
+  .term {
+    width: 560px; background: var(--panel); border: 1px solid var(--line); border-radius: 18px;
+    font: 25px/1 var(--mono); overflow: hidden;
+  }
+  .bar { display: flex; gap: 10px; padding: 18px 22px; border-bottom: 1px solid var(--line); }
+  .bar i { width: 14px; height: 14px; border-radius: 50%; background: var(--line); }
+  .bar i:first-child { background: var(--accent); }
+  .rows { padding: 26px 28px 30px; display: grid; gap: 22px; }
+  .rows div { display: flex; justify-content: space-between; white-space: nowrap; }
+  .p { color: var(--ok); margin-right: 14px; }
+  .c { color: var(--muted); }
+</style>
+</head>
+<body>
+<section class="slide">
+  <div>
+    <div class="label">SENIOR DEVOPS / SRE</div>
+    <h1>Danila Zanin</h1>
+    <div class="sub"><b>Kubernetes</b> · <b>GitOps</b> · <b>Vault</b> · tools for 3 a.m. problems</div>
+  </div>
+  <div class="term">
+    <div class="bar"><i></i><i></i><i></i></div>
+    <div class="rows">
+      <div><span><span class="p">$</span>helm-unstick</span><span class="c"># stuck release</span></div>
+      <div><span><span class="p">$</span>ci-why</span><span class="c"># why this job ran</span></div>
+      <div><span><span class="p">$</span>kubectl whydied</span><span class="c"># why it died</span></div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
