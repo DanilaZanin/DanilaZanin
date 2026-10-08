@@ -10,6 +10,23 @@ Senior DevOps engineer. I run hybrid infrastructure: bare-metal Linux and Hyper-
 
 I also run AI coding agents every day and write about what survives production.
 
+## Flagship project: Botstead
+
+<p align="center">
+  <a href="https://github.com/DanilaZanin/botstead"><img src="https://raw.githubusercontent.com/DanilaZanin/botstead/main/docs/assets/demos/group-debate.gif" alt="Two Botstead bots debating a question" width="85%"></a>
+</p>
+
+**Why pay for Grok Bot or ChatGPT Dots? Run your own for free.**
+
+[Botstead](https://github.com/DanilaZanin/botstead) is an open-source, self-hosted hub for AI bots. Each bot gets its own container and its own browser, and you can take over its screen at any moment. Bring the models you already have: Claude Code, Codex or Antigravity subscriptions, OpenRouter, or any OpenAI-compatible endpoint.
+
+- Bots with roles, memory, schedules, and recorded procedures they can replay without a model
+- Group chats where bots debate each other and reach a conclusion
+- Approvals for risky actions, an activity feed, and per-bot cost tracking
+- Telegram, Slack, GitHub, and email triggers, plus a PWA for desktop and phone
+
+`Python` `FastAPI` `Postgres` `Docker` `Apache-2.0`
+
 ## Tools I wrote for problems I kept running into
 
 <table>
